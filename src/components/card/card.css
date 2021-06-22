@@ -1,0 +1,53 @@
+.card-conatiner{
+    height: 100%;
+    max-width: 495px;
+    padding: 36px 40px 36px 40px;
+    background: linear-gradient(0deg, rgba(17, 13, 14, 0.88), rgba(17, 13, 14, 0.88)), rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.border-content{
+    margin-top: 15px;
+    width: 88px;
+    height: 88px;
+    background: linear-gradient(0deg, rgba(17, 13, 14, 0.88), rgba(17, 13, 14, 0.88)), rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.border-content:hover{
+    border: 2px solid  #2F1D13;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.container-border-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #2F1D13;
+}
+.container-border-card-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-img{
+    margin-top: 130px;
+    margin-bottom: 95px;
+    max-width: 100%;
+
+}
+@media(max-width:440px){
+    .border-content{
+        margin-top: 15px;
+        width: 58px;
+        height: 58px;
+        background: linear-gradient(0deg, rgba(17, 13, 14, 0.88), rgba(17, 13, 14, 0.88)), rgba(255, 255, 255, 0.08);
+        border: 2px solid rgba(255, 255, 255, 0.16);
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+}

@@ -1,0 +1,21 @@
+.catalog-container{
+    background: url('/src/img/image.png');
+    background-size: 100% 100%;
+    padding: 40px 40px;
+}
+.catalog-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1078px;
+    margin: 0 auto;
+}
+@media(max-width:1100px){
+    .catalog-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
